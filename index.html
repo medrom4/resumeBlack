@@ -1,28 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Карта товара</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="medrom4">
 
-	<link rel="stylesheet" href="css/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <title>BlackSite</title>
 
-	<!-- Font Awesome's CDN -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous">
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
 
-	<!-- Bootstrap core CSS -->
-	<!--	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">-->
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
+  <!-- bootstrap cdns -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- terminal effect -->
+  <script src="script_my/t.min.js"></script>
+
+  <!-- for on scroll animations -->
+  <link rel="stylesheet" href="css/animate.css">
+  <script src="script_my/wow.min.js"></script>
 
 </head>
 
 <body>
 
+  <div class="wrapper">
+
+    <!-------------------- navbar starts here -------------------->
+
+    <nav>
+
+      <span id="brand">
+        <a href="index.html">BlackSite</a>
+      </span>
+
+      <ul id="menu">
+        <li><a href="index.html">Вверх<span>.</span></a></li>
+        <li><a href="work.html">Работы<span>.</span></a></li>
+        <li><a href="about.html">Разное<span>.</span></a></li>
+        <li><a href="contact.html">Контакты<span>.</span></a></li>
+      </ul>
+
+      <div id="toggle">
+        <div class="span">меню</div>
+      </div>
+
+    </nav>
+
+    <div id="resize">
+      <div class="close-btn">закрыть</div>
+
+      <ul id="menu">
+        <li><a href="index.html">Вверх<span>.</span></a></li>
+        <li><a href="work.html">Работы<span>.</span></a></li>
+        <li><a href="about.html">Разное<span>.</span></a></li>
+        <li><a href="contact.html">Контакты<span>.</span></a></li>
+      </ul>
+    </div>
+
+    <!---------------------- navbar ends here ------------------------>
 
 
-	<script src="script_my/script.js"></script>
+
+    <!-------------------- hero section starts here -------------------->
+
+    <div class="hero">
+      <div class="header">
+        <h1 class="line anim-typewriter">I make brands matter in culture.</h1>
+      </div>
+    </div>
+
+    <div class="scroll-down"></div>
+
+    <!-------------------- hero section ends here -------------------->
+
+  </div>
+
+
+
+  <!-- greensock cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+  <script src="script_my/script.js"></script>
 </body>
 
 </html>
